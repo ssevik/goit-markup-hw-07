@@ -12,8 +12,7 @@
     width: 170px;
     height: 92px;
 
-    border: 1px solid $svg-color;
-    border-radius: 4px;
+    @include bordered($svg-color);
 
     fill: $svg-color;
 

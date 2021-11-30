@@ -2,13 +2,11 @@
   border-bottom: 1px solid #ececec;
 }
 .container--flex {
-  display: flex;
-  align-items: center;
+  @include flex;
 }
 
 .nav {
-  display: flex;
-  align-items: center;
+  @include flex;
 }
 
 .nav-site {
@@ -63,8 +61,7 @@
   margin-left: auto;
 
   &__item {
-    display: flex;
-    align-items: center;
+    @include flex;
 
     &:not(:last-child) {
       margin-right: 43px;
@@ -73,8 +70,8 @@
 }
 
 .address__cont {
-  display: flex;
-  align-items: center;
+  @include flex;
+
   color: $text-color;
 
   transition: color 250ms $animation-cubic-bezier;
