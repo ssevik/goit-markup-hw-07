@@ -24,11 +24,15 @@
   }
 }
 
+
+
 .footer-address:not(:last-child) {
   margin-bottom: 9px;
 }
 
 .footer-address__cont {
+  margin-bottom: 9px;
+  
   color: $footer-text-color;
   font-style: normal;
 
@@ -39,6 +43,8 @@
     color: $main-color;
   }
 }
+
+
 
 .footer__social {
   display: flex;
@@ -142,3 +148,5 @@
 
   fill: $main-color;
 }
+
+
